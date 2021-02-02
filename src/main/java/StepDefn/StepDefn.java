@@ -24,7 +24,7 @@ public class StepDefn {
 	
 	@Then("^user is able to create group$")
 	public void user_is_able_to_create_group() throws Throwable {
-		object.create_group();
+		//object.create_group();
 	}
 
 	@Then("^user is able to send message to added participants$")
@@ -34,7 +34,7 @@ public class StepDefn {
 
 	@Then("^user should logout from the application\\.$")
 	public void user_should_logout_from_the_application() throws Throwable {
-		//object.logout();
+		object.logout();
 	    
 	}
 
